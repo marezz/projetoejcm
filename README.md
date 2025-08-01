@@ -1,4 +1,4 @@
-# 🚀 Nome do Projeto
+# 🚀 Projeto Elektro (EJCM)
 
 Descrição breve sobre o propósito do app e o público‑alvo.
 

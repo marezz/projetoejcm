@@ -2,6 +2,7 @@ import { Routes, Route, Outlet } from "react-router-dom";
 import Home from "../pages/Home";
 import Cadastro from "../pages/Cadastro";
 import Login from "../pages/Login";
+import PagErro from "../pages/PagErro";
 
 function Layout() {
   return (
@@ -21,6 +22,7 @@ export default function AppRoutes() {
         <Route index element={<Home />} />
         <Route path="/cadastro" element={<Cadastro />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/erro" element={<PagErro />} />
       </Route>
     </Routes>
   );
